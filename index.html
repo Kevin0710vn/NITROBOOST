@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="top">Health Is Wealth</h1>
+  
+  <p><em><strong> This is a survey for you meal recommendation, please answer those questions. </strong></em></p>
+
+  <div class = "box box_name">
+    <h2>Name: 
+    <input type ="text" class="name" placeholder="Enter First Name"> </h2>
+    <h2>Height: 
+    <input type ="number" class="height" placeholder="Enter height (in centimeters)"> </h2>
+    <h2>Weight: 
+    <input type ="number" class="weight" placeholder="Enter weight (in kilograms)"> </h2>
+    <button id = "hide" onClick="hide()">NEXT</button>
+  </div>
+
+  <div class = "box box_goals">
+    <h2>Goals: 
+    <select type ="text" class="name"> 
+      <option value = "lose" class = "lose" >Lose Weight</option>
+      <option value = "maintain" class = "maintain" >Maintain Weight</option>
+      <option value = "gain" class = "gain" >Gain Weight</option>
+    </select> </h2>
+    <button id = "hide1" onClick="hide1()">NEXT</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

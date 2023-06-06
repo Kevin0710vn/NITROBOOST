@@ -4,36 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>NUTRIBOOST - Home</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-  <h1 id="top">Health Is Wealth</h1>
+<body class = "home-content">
   
-  <p><em><strong> This is a survey for you meal recommendation, please answer those questions. </strong></em></p>
+  <header>
+    
+    <h1 id="top">NUTRIBOOST</h1>
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="survey.html">Survey</a></li>
+        <li><a href="mealplan.html">Meal Plans</a></li>
+      </ul>
+    </nav>
+    
+  </header>
 
-  <div class = "box box_name">
-    <h2>Name: 
-    <input type ="text" class="name" placeholder="Enter First Name"> </h2>
-    <h2>Height: 
-    <input type ="number" class="height" placeholder="Enter height (in centimeters)"> </h2>
-    <h2>Weight: 
-    <input type ="number" class="weight" placeholder="Enter weight (in kilograms)"> </h2>
-    <button id = "hide" onClick="hide()">NEXT</button>
-  </div>
+  <main>
+    <h2>Welcome to NUTRIBOOST</h2>
+    <p>
+      NUTRIBOOST is a platform designed to provide personalized meal recommendations based on your goals, height, weight, and activity level.
+    </p>
+    <p>
+      Please click the "Survey" link above to answer a few questions and get your customized meal plan.
+    </p>
+  </main>
 
-  <div class = "box box_goals">
-    <h2>Goals: 
-    <select type ="text" class="name"> 
-      <option value = "lose" class = "lose" >Lose Weight</option>
-      <option value = "maintain" class = "maintain" >Maintain Weight</option>
-      <option value = "gain" class = "gain" >Gain Weight</option>
-    </select> </h2>
-    <button id = "hide1" onClick="hide1()">NEXT</button>
-  </div>
-  
-  <script src="script.js"></script>
 </body>
 
 </html>

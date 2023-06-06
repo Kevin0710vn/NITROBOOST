@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Meal Plan</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Meal Plan</h1>
+  <a href="index.html">Home</a></li>
+
+  <div class="mealPlan"></div>
+
+  <script src="script.js"></script>
+  <script>
+    const mealPlanData = localStorage.getItem('mealPlanData');
+    if (mealPlanData) {
+      const mealPlan1 = JSON.parse(mealPlanData);
+      const mealPlanElement = document.querySelector('.mealPlan');
+      mealPlanElement.innerHTML = mealPlan1;
+    }
+  </script>
+</body>
+
+</html>
